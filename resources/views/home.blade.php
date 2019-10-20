@@ -217,7 +217,7 @@
                 </li>
                 @if(Auth::user()->type === 'admin')
                     <li class="" role="presentation">
-                        <a href="#homeTab" data-toggle="tab">        
+                        <a href="#security-tab" data-toggle="tab">        
                             <i class="material-icons">security</i>                
                             <span class="w-100">                                
                                 Police Station
@@ -227,7 +227,7 @@
                 @endif
             </ul>
         </div>
-        <!-- #Menu -->
+        <!-- #Menu -->        
         <!-- Footer -->
         <div class="legal">
             <div class="copyright">                
@@ -243,5 +243,16 @@
     <!-- Right Sidebar -->
     @include('pages.home-settings')
     <!-- #END# Right Sidebar -->
+</section>
+<section class="content">
+    <div class="container-fluid">
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane animated active" id="homeTab">
+            </div>
+            <div role="tabpanel" class="tab-pane animated" id="security-tab">
+                @include('pages.admin.security')
+            </div>
+        </div>        
+    </div>
 </section>
 @endsection

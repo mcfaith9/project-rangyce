@@ -7,25 +7,26 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <link rel="icon" href="{{asset('images/rlogo.png')}}">
+    <title>rangyCE</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{asset('global/plugins/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
-    <link href="{{asset('global/plugins/bootstrap-select/css/bootstrap-select.css')}}" rel="stylesheet" />
-    <link href="{{asset('global/plugins/node-waves/waves.cs')}}s" rel="stylesheet" />
-    <link href="{{asset('global/plugins/sweetalert/sweetalert.css')}}" rel="stylesheet" />
-    <link href="{{asset('global/plugins/animate-css/animate.css')}}" rel="stylesheet" />
-    <link href="{{asset('global/plugins/morrisjs/morris.css')}}" rel="stylesheet" />
-    <link href="{{asset('global/plugins/jvectormap/jquery-jvectormap-1.2.2.css')}}" rel="stylesheet" />
-    <link href="{{asset('global/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css')}}" rel="stylesheet">
-    <link href="{{asset('global/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css')}}" rel="stylesheet" />
-    <link href="{{asset('global/plugins/light-gallery/css/lightgallery.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" type="text/css" rel="stylesheet">
+    <link href="{{asset('global/plugins/bootstrap/css/bootstrap.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{asset('global/plugins/bootstrap-select/css/bootstrap-select.css')}}" type="text/css" rel="stylesheet" />
+    <link href="{{asset('global/plugins/node-waves/waves.cs')}}s" type="text/css" rel="stylesheet" />
+    <link href="{{asset('global/plugins/sweetalert/sweetalert.css')}}" type="text/css" rel="stylesheet" />
+    <link href="{{asset('global/plugins/animate-css/animate.css')}}" type="text/css" rel="stylesheet" />
+    <link href="{{asset('global/plugins/morrisjs/morris.css')}}" type="text/css" rel="stylesheet" />
+    <link href="{{asset('global/plugins/jvectormap/jquery-jvectormap-1.2.2.css')}}" type="text/css" rel="stylesheet" />
+    <link href="{{asset('global/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{asset('global/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{asset('global/plugins/light-gallery/css/lightgallery.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{asset('global/css/form-lable-float.css')}}" type="text/css" rel="stylesheet">
     <!-- Custom Css -->
-    <link href="{{asset('global/css/style.css')}}" rel="stylesheet">
-    <link href="{{asset('global/css/materialize.css')}}" rel="stylesheet" type="text/css" >
-    <link href="{{asset('global/css/themes/all-themes.css')}}" rel="stylesheet" />
+    <link href="{{asset('global/css/style.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{asset('global/css/materialize.css')}}" type="text/css" rel="stylesheet" type="text/css" >
+    <link href="{{asset('global/css/themes/all-themes.css')}}" type="text/css" rel="stylesheet">
     <style type="text/css">
     .bg-img {
         background-image: url("{{asset('images/widescreen_desktop_wallpaper_art_dsc00754.jpg')}}");

@@ -15,3 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/home', 'HomeController@index')->name('home');
+
+// Admin
+Route::post('/add_station', 'AdminController@addPoliceStation')->name('add_station');
